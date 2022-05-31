@@ -68,7 +68,22 @@
     display: flex;
     flex-direction: row-reverse;
     margin-top: 20px;
+    width: auto;
+    height: auto;
+}
+.imagenes-main:hover{
+    transform: scale(1.2);
+}
 
+.box1{
+    transition: all 3s;
+
+}
+.box2{
+    transition: all 4s;
+}
+.box3{
+    transition: all 5s;
 }
 
 
