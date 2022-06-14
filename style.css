@@ -71,7 +71,7 @@ footer{
 
 .main {
     display: flex;
-    margin-bottom: 250px;
+    margin-bottom: 25px;
     justify-content: center;
     list-style: none;
     list-style-position: none;
@@ -92,12 +92,15 @@ footer{
 .imagenes-main {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
     margin-top: 20px;
-    width: auto;
-    height: auto;
+    margin-bottom: 30px;
+  
+    object-fit: cover;
+    align-items: center;
 }
 .imagenes-main:hover{
-    transform: scale(1.1);
+    transform: scale(1.09);
 }
 
 .box1{
@@ -134,6 +137,27 @@ footer{
 a {
     color: white;
 }
+.caja{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 5rem 5rem 5rem;  
+}
+.caja-container{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px;
+    border-color: black;
+
+  
+}
+.item{
+    padding: 1px 30px 1px 30px;
+ 
+}
+
+
 /* index final */
 
 
